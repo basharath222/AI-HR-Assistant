@@ -1,0 +1,15 @@
+# Sensitive Information
+.env
+
+# Python Environment
+venv/
+__pycache__/
+*.pyc
+
+# Local Data & IDEs
+data/
+.vscode/
+.idea/
+
+# Streamlit logs
+.streamlit/

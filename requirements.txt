@@ -1,0 +1,18 @@
+# Web Interface
+streamlit
+
+# PDF Parsing
+pypdf
+
+# AI & API Orchestration
+google-genai
+tenacity
+
+# Math, Data & NLP
+numpy
+pandas
+scikit-learn
+plotly
+
+# Utilities
+python-dotenv
