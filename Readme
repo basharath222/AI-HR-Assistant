@@ -1,5 +1,5 @@
-Project Title: AIML-03 AI-Based Resume Screening & Job Matching Platform
-📖 Project Overview
+# Project Title: AIML-03 AI-Based Resume Screening & Job Matching Platform
+## 📖 Project Overview
 This platform is a dual-intelligence tool designed to automate resume screening and match candidates with job roles using NLP and Generative AI. It solves the problem of manual resume screening for HR Teams and Job Portals by providing faster recruitment, bias reduction, and detailed skill-gap analysis.
 
 The system doesn't just look for keywords; it "thinks" like an HR professional to evaluate candidate potential and provide ready-to-use interview kits.
