@@ -8,11 +8,12 @@ from google.genai import types, errors
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+import streamlit as st
 
 load_dotenv()
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-SCREENING_MODEL = 'gemini-2.5-flash'
-
+api_key = st.secrets.get("GEMINI_API_KEY", os.getenv("GEMINI_API_KEY"))
+SCREENING_MODEL = 'gemini-2.5-flash-lite'
+client = genai.Client(api_key=api_key)
 def get_pdf_text(pdf_file):
     """Extracts text from PDF."""
     reader = pypdf.PdfReader(pdf_file)
